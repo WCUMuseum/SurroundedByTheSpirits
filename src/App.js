@@ -28,7 +28,7 @@ function App() {
     <div>
       <NavbarComponent />
        <Routes>
-         <Route path="/" element={<Home/>} />
+         <Route path="/SurroundedByTheSpirits" element={<Home/>} />
          <Route path="/museum_page" element={<Main_Museum     />} />
          <Route path="/about" element={<About/>} />
          
