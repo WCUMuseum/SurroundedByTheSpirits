@@ -8,37 +8,18 @@ import Main_Museum from './pages/Main_Museum';
 import About from './pages/About';
 import EarlyLife from './pages/EarlyLife';
 import AnotherOne from './pages/AnotherOne';
+import { Route, Routes } from 'react-router-dom';
+import Card1 from './pages/Card1';
+import Card2 from './pages/Card2';
+import Card3 from './pages/Card3';
+import Card4 from './pages/Card4';
+
+
 
 
 function App() {
 
-  let pages 
-  switch (window.location.pathname) {
-    case '/':
-      pages = <Home/>
-      break; 
-   case '/museum_page':
-      pages = <Main_Museum     />
-      break;
-  case '/about':
-      pages = <About />     
-      break; 
-   case '/paul_stoller':
-      pages = <Paul_Stoller />
-      break;  
-   case '/all_vidoes':
-      pages = <All_Videos  />   
-      break;
-   case '/earlylife':
-      pages = <EarlyLife  />   
-      break;
-   case '/anotherone':
-      pages = <AnotherOne />   
-      break;
-
-    default:
-      break;
-  }
+  
 
   return (
 
@@ -46,7 +27,26 @@ function App() {
 
     <div>
       <NavbarComponent />
-       {pages}
+       <Routes>
+         <Route path="/" element={<Home/>} />
+         <Route path="/museum_page" element={<Main_Museum     />} />
+         <Route path="/about" element={<About/>} />
+         
+         <Route path="/paul_stoller" element={<Paul_Stoller/>} />
+
+         <Route path="/all_vidoes" element={<All_Videos/>} />
+         <Route path="/earlylife" element={<EarlyLife/>} />
+         <Route path="/anotherone" element={<AnotherOne/>} />
+         <Route path="/Card1" element={<Card1/>} />
+         <Route path="/Card2" element={<Card2/>} />
+         <Route path="/Card3" element={<Card3/>} />
+         <Route path="/Card4" element={<Card4/>} />
+
+
+
+
+       
+       </Routes>
       
 
 

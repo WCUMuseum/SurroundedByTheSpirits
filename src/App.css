@@ -1,12 +1,25 @@
-.paul img{
+
+.paul p{
+    padding: 25px;
+    font-size:x-large;
+}
+
+.paul h2{
+    padding-left: 25px;
+}
+
+.paul ul {
+    padding-left: 25px;
+    list-style: disc;
+}
+.paul li{
+    padding-bottom: 10px;
+}
+.paul-img{
     border-radius: 100%;
     width: 300px;
     height: 300px;
     display: block;
     margin: 0 auto;
     
-}
-.paul p{
-    padding: 25px;
-    font-size:x-large;
 }
