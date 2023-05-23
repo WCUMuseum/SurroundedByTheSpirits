@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SurroundedByTheSpirits/static/css/main.e43e77f1.css",
+    "main.js": "/SurroundedByTheSpirits/static/js/main.a7bb3f49.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SurroundedByTheSpirits/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/SurroundedByTheSpirits/index.html",
+    "main.e43e77f1.css.map": "/SurroundedByTheSpirits/static/css/main.e43e77f1.css.map",
+    "main.a7bb3f49.js.map": "/SurroundedByTheSpirits/static/js/main.a7bb3f49.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SurroundedByTheSpirits/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e43e77f1.css",
+    "static/js/main.a7bb3f49.js"
+  ]
+}
