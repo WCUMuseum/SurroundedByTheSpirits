@@ -1,10 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
-
+import logo from '../assest/exhibition_transparent.png'
 const NavbarComponent = () => {
   return (
     <div style={{ marginLeft: 0 }}>
@@ -12,12 +11,12 @@ const NavbarComponent = () => {
         <Navbar expand="lg">
           <Container>
             <Navbar.Brand style={{ color: 'white' }} as={Link} to="/">
-              <img src="exhibition_transparent.png" height="75" className="d-inline-block align-top" />
+              <img src={logo} alt="Paul Stoller" height="75" className="d-inline-block align-top" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <CustomLink to="/SurroundedByTheSpirits">Home</CustomLink>
+                <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/museum_page">Main Musuem</CustomLink>
                 <CustomLink to="/paul_stoller">Paul Stoller</CustomLink>
                 <CustomLink to="/all_vidoes">All Videos</CustomLink>

@@ -1,16 +1,18 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React from 'react';
-import Paul_Stoller from '../pages/Paul_Stoller';
+import paulStollerImage from '../assest/Paul_stoller.jpg'; 
+import sampleImage from '../assest/moon.jpg'
 
-import {Link, useMatch, useResolvedPath } from 'react-router-dom'
+
+import {Link} from 'react-router-dom'
 
 
 function Home() {
   return (
     <div>
     <div className='paul' style={{paddingTop: '25px'}}>
-    <img className='paul-img' src="Pau;_stoller.jpg" alt="Paul Stoller" />
+    <img className='paul-img' src={paulStollerImage} alt="Paul Stoller" />
     <p> WCU Professor Paul Stoller is an eminent anthropologist, known for his pioneering contributions to the field of anthropology in the areas of  West African culture, religion, rituals, and wellness. 
     In recognition of his upcoming retirement and the extensive impact of his life's work, this annex serves to chronicle his scholarly achievements and educate visitors on the inspiration behind the larger exhibition. </p>
     <p>
@@ -75,7 +77,7 @@ function Home() {
 
         <div style={{ width: '25%', paddingLeft: '1rem', paddingRight: '1rem' }}>
           <Card style={{  width: '100%', height: '500px' }}>
-            <Card.Img src="moon.jpg" alt="Card image" />
+            <Card.Img src={sampleImage} alt="Card image" />
 
             <Card.Body>
               <Card.Title>Card 2</Card.Title>
@@ -92,7 +94,7 @@ function Home() {
 
         <div style={{ width: '25%', paddingLeft: '1rem', paddingRight: '1rem' }}>
           <Card style={{  width: '100%', height: '500px'  }}>
-            <Card.Img src="moon.jpg" alt="Card image" />
+            <Card.Img src={sampleImage} alt="Card image" />
 
             <Card.Body>
               <Card.Title>Card 3</Card.Title>
@@ -109,7 +111,7 @@ function Home() {
 
         <div style={{ width: '25%', paddingLeft: '1rem', paddingRight: '1rem' }}>
           <Card style={{ width: '100%', height: '500px' }}>
-            <Card.Img src="moon.jpg" alt="Card image" />
+            <Card.Img src={sampleImage}  alt="Card image" />
 
             <Card.Body>
               <Card.Title>Card 4</Card.Title>
@@ -154,7 +156,7 @@ function Home() {
 
         <div style={{ width: '25%', paddingLeft: '1rem', paddingRight: '1rem' }}>
           <Card style={{  width: '100%', height: '500px' }}>
-            <Card.Img src="moon.jpg" alt="Card image" />
+            <Card.Img src={sampleImage} alt="Card image" />
 
             <Card.Body>
               <Card.Title>Card 2</Card.Title>
@@ -170,7 +172,7 @@ function Home() {
 
         <div style={{ width: '25%', paddingLeft: '1rem', paddingRight: '1rem' }}>
           <Card style={{  width: '100%', height: '500px'  }}>
-            <Card.Img src="moon.jpg" alt="Card image" />
+            <Card.Img src={sampleImage} alt="Card image" />
 
             <Card.Body>
               <Card.Title>Card 3</Card.Title>
@@ -186,7 +188,7 @@ function Home() {
 
         <div style={{ width: '25%', paddingLeft: '1rem', paddingRight: '1rem' }}>
           <Card style={{ width: '100%', height: '500px' }}>
-            <Card.Img src="moon.jpg" alt="Card image" />
+            <Card.Img src={sampleImage} alt="Card image" />
 
             <Card.Body>
               <Card.Title>Card 4</Card.Title>
