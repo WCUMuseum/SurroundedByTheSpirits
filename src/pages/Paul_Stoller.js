@@ -14,7 +14,7 @@ const Paul_Stoller = () => {
 
   return (
     <div className='paul' style={{ paddingTop: '25px' }}>
-      <img className='paul-img' src="Pau;_stoller.jpg" alt="Paul Stoller" />
+      <img className='paul-img' src="./SurroundedByTheSpirits/Pau;_stoller.jpg" alt="Paul Stoller" />
 
       <h2> About Paul Stoller: </h2>
       {/* ...content... */}

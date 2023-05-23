@@ -5,7 +5,7 @@ const Card1 = () => {
   return (
     <div>
 
-    <Link to = "/">
+    <Link to = "/SurroundedByTheSpirits">
         <a style={{color: "rgb(221, 105, 29)"}}> &#8592; Go Back</a>
       </Link>
     

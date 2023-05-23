@@ -17,7 +17,7 @@ const NavbarComponent = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <CustomLink to="/">Home</CustomLink>
+                <CustomLink to="/SurroundedByTheSpirits">Home</CustomLink>
                 <CustomLink to="/museum_page">Main Musuem</CustomLink>
                 <CustomLink to="/paul_stoller">Paul Stoller</CustomLink>
                 <CustomLink to="/all_vidoes">All Videos</CustomLink>
