@@ -35,7 +35,8 @@ function CustomLink({ to, children, ...props }) {
   const isActive = useMatch({path: resolvedPath.pathname, end: true })
 
   return (
-    <Nav.Link className={isActive ? 'active' : ''} style={{ color: 'white', fontSize: '25px' }} as={Link} to={to} {...props}>
+    <Nav.Link  className={`custom-link ${isActive ? 'active' : ''}`}
+style={{ color: 'white', fontSize: '25px' }} as={Link} to={to} {...props}>
       {children}
     </Nav.Link>
   );

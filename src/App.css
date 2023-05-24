@@ -23,3 +23,37 @@
     margin: 0 auto;
     
 }
+.link {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .link .text {
+    color: rgb(221, 105, 29);
+    font-size: 25px;
+  }
+  
+  .link .text:hover {
+    color: blue; /* Replace with your desired color */
+    /* Add any other styles for hover effect */
+  }
+  
+  .link .arrow {
+    color: rgb(221, 105, 29);
+    font-size: 25px;
+    margin-right: 5px;
+  }
+  .custom-link {
+    display: inline-block;
+    padding: 20px 30px; /* Adjust padding values to increase or decrease the box size */
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .custom-link.active {
+    background-color: rgb(221, 105, 29);
+    color: rgb(83, 88, 94);
+  }
+  
+    
