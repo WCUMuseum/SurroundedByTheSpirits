@@ -1,14 +1,13 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
+import GoBack from '../Components/GoBack';
 
 
 const Card4 = () => {
   return (
-    <div>
-    <Link to="/SurroundedByTheSpirits" className="link">
-        <span className="arrow"> &#8592; </span>
-        <span className="text">Go Back</span>
-      </Link>
+    <div className='paul'>
+    <GoBack/>
+
       <h1>UNIT 4</h1>
       <div className="row" style={{ paddingLeft: '5px' , paddingRight: '5px'}}>
         <div className="col-md-4">

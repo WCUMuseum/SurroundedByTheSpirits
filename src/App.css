@@ -6,6 +6,13 @@
 
 .paul h2{
     padding-left: 25px;
+    color: rgb(221, 105, 29);
+
+}
+.paul h1{
+  padding-left: 25px;
+  color: rgb(221, 105, 29);
+
 }
 
 .paul ul {
@@ -21,7 +28,16 @@
     height: 300px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 0;
     
+}
+
+
+.paul a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(221, 105, 29);
+
 }
 .link {
     text-decoration: none;
@@ -56,4 +72,9 @@
     color: rgb(83, 88, 94);
   }
   
+  .allvid-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
     

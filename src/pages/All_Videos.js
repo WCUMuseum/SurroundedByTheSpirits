@@ -7,7 +7,7 @@ import Card4 from './Card4'
 
 const All_Videos = () => {
   return (
-    <div>
+    <div className='paul'>
       <h1>
         ALL VIDEOS
       </h1>

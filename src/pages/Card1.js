@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Card1 = () => {
   return (
-    <div>
+    <div className='paul'>
     <Link to="/SurroundedByTheSpirits" className="link">
         <span className="arrow"> &#8592; </span>
         <span className="text">Go Back</span>

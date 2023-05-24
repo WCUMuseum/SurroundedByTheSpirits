@@ -8,8 +8,9 @@ function Home() {
     <div>
       <div style={{paddingTop:'25px'}} className="paul" >
       <img className="paul-img" src={paulStollerImage} alt="Paul Stoller" />
-      <p>
-        WCU Professor Paul Stoller is an eminent anthropologist, known for his pioneering contributions to the field
+      <p style={{ display: 'flex', justifyContent: 'center', marginTop: "0" }}> <a href="https://paulstollersblog.wordpress.com/">Paul Stoller's Personal Blog</a> </p>
+          <p>
+        WCU Professor <a  href="https://paulstollersblog.wordpress.com/"> Paul Stoller </a> is an eminent anthropologist, known for his pioneering contributions to the field
         of anthropology in the areas of West African culture, religion, rituals, and wellness. In recognition of his
         upcoming retirement and the extensive impact of his life's work, this annex serves to chronicle his scholarly
         achievements and educate visitors on the inspiration behind the larger exhibition.
@@ -231,13 +232,18 @@ function Home() {
                 </Link>
                 </p>
         </div>
-          </div>
-
         </div>
+      </div>        
         <hr style={{ borderTop: "1px solid black" }} />
-
-      </div>
     </div>
+    <div className="allvid-btn">
+        <Link to = "/all_vidoes">
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' , fontSize: '30px', padding: '20px 70px'}} type="button" className="btn btn-primary">
+            All Videos
+          </Button>
+        </Link>  
+    </div>      
+  </div>
   );
 }
 

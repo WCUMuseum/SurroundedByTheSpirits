@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import paulStollerImage from '../assest/Paul_stoller.jpg'; 
 import sampleImage from '../assest/moon.jpg'
+import GoBack from '../Components/GoBack';
+
 
 const Paul_Stoller = () => {
   const [expandedItem, setExpandedItem] = useState(null);
@@ -15,6 +17,7 @@ const Paul_Stoller = () => {
 
   return (
     <div className='paul' style={{ paddingTop: '25px' }}>
+    <GoBack/>
       <img className='paul-img' src={paulStollerImage} alt="Paul Stoller" />
 
       <h2 > About Paul Stoller: </h2>
