@@ -83,7 +83,7 @@ const Cards = () => {
         <div className="card-body">
           <h5 className="card-title">Not Returning to Niger following Cancer Diagnosis</h5>
           <p className="card-text">
-            DESCRIPTION HERE
+            In this clip, Stoller talkes about complex reasons as to why he was not able to return to Niger.
           </p>
 
           <p> Click to go to chapter videos: 
