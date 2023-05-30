@@ -8,12 +8,48 @@ import Main_Museum from './pages/Main_Museum';
 import About from './pages/About';
 import EarlyLife from './pages/EarlyLife';
 import AnotherOne from './pages/AnotherOne';
-import { Route, Routes } from 'react-router-dom';
-import Card1 from './pages/Card1';
-import Card2 from './pages/Card2';
-import Card3 from './pages/Card3';
-import Card4 from './pages/Card4';
+import { Route, Routes, Redirect  } from 'react-router-dom';
+import Cards from './Components/Cards';
 
+function Card1() {
+  window.location.href = 'https://youtu.be/S1hBjKaFYS0';
+  return null;
+}
+
+function Card2() {
+  window.location.href = 'https://youtu.be/kgCGOEoJy-o';
+  return null;
+}
+
+function Card3() {
+  window.location.href = 'https://youtu.be/jFebWvMaVTo';
+  return null;
+}
+
+function Card4() {
+  window.location.href = 'https://youtu.be/J-BrhMPXB0o';
+  return null;
+}
+
+function Card5() {
+  window.location.href = 'https://youtu.be/F7bFFX_wRYk';
+  return null;
+}
+
+function Card6() {
+  window.location.href = 'https://youtu.be/adXTANj1fKc';
+  return null;
+}
+
+function Card7() {
+  window.location.href = 'https://youtu.be/iZ77YNl47Lg';
+  return null;
+}
+
+function Card8() {
+  window.location.href = 'https://youtu.be/rImtc865lgc';
+  return null;
+}
 
 
 
@@ -37,10 +73,7 @@ function App() {
          <Route path="/all_vidoes" element={<All_Videos/>} />
          <Route path="/earlylife" element={<EarlyLife/>} />
          <Route path="/anotherone" element={<AnotherOne/>} />
-         <Route path="/Card1" element={<Card1/>} />
-         <Route path="/Card2" element={<Card2/>} />
-         <Route path="/Card3" element={<Card3/>} />
-         <Route path="/Card4" element={<Card4/>} />
+  
 
 
 

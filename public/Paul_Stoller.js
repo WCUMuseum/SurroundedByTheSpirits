@@ -4,14 +4,6 @@ import sampleImage from '../assest/moon.jpg'
 import GoBack from '../Components/GoBack';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import book1 from '../assest/book1.jpg'
-import book2 from '../assest/book2.jpg'
-import book3 from '../assest/book3.jpg'
-import book4 from '../assest/book4.jpg'
-import book5 from '../assest/book5.jpg'
-import book6 from '../assest/book6.jpg'
-
-
 
 
 
@@ -212,14 +204,14 @@ const Paul_Stoller = () => {
 
       <hr style={{ borderTop: "1px solid black" }} />
 
-      <h2> Books (Click the lists and pictures below!) :  </h2>
+      <h2> Books: </h2>
       <ul>
         <li onClick={() => toggleItem(9)} style={{ cursor: 'pointer' }}>
           "In Sorcery's Shadow: A Memoir of Apprenticeship Among the Songhay of Niger":
           {expandedItem === 9 && (
             <div className="expanded-item-box">
             <a href="https://www.amazon.com/Sorcerys-Shadow-Memoir-Apprenticeship-Songhay/dp/0226775437" target="_blank" rel="noopener noreferrer">
-  <img src={book1} style={{paddingLeft: '35px'}} alt="Image 2" />
+  <img src={sampleImage} style={{paddingLeft: '35px'}} alt="Image 2" />
 </a>
 
           <ul>
@@ -237,7 +229,7 @@ const Paul_Stoller = () => {
             (
               <div>
 <a href="https://www.amazon.com/Taste-Ethnographic-Things-Anthropology-Contemporary/dp/0812212924" target="_blank" rel="noopener noreferrer">
-  <img src={book2} style={{paddingLeft: '35px'}} alt="Image 2" />
+  <img src={sampleImage} style={{paddingLeft: '35px'}} alt="Image 2" />
 </a>
             <ul>
             <li>
@@ -256,7 +248,7 @@ const Paul_Stoller = () => {
             (
               <div>
 <a href="https://www.amazon.com/Fusion-Worlds-Ethnography-Possession-Songhay/dp/0226775453" target="_blank" rel="noopener noreferrer">
-  <img src={book3} style={{paddingLeft: '35px'}} alt="Image 2" />
+  <img src={sampleImage} style={{paddingLeft: '35px'}} alt="Image 2" />
 </a>
             <ul>
             <li>
@@ -273,7 +265,7 @@ const Paul_Stoller = () => {
             (
               <div>
 <a href="https://www.amazon.com/Money-Has-No-Smell-Africanization/dp/0226775305" target="_blank" rel="noopener noreferrer">
-  <img src={book4} style={{paddingLeft: '35px'}} alt="Image 2" />
+  <img src={sampleImage} style={{paddingLeft: '35px'}} alt="Image 2" />
 </a>
             <ul>
             <li>
@@ -293,7 +285,7 @@ const Paul_Stoller = () => {
             (
               <div>
 <a href="https://www.amazon.com/Ethnography-Virtual-Worlds-Handbook-Method-ebook/dp/B008U4UKL2" target="_blank" rel="noopener noreferrer">
-  <img src={book5} style={{paddingLeft: '35px'}} alt="Image 2" />
+  <img src={sampleImage} style={{paddingLeft: '35px'}} alt="Image 2" />
 </a>
             <ul>
             <li>
@@ -312,7 +304,7 @@ const Paul_Stoller = () => {
             (
               <div>
 <a href="https://www.amazon.com/Power-Between-Anthropological-Odyssey/dp/0226775356" target="_blank" rel="noopener noreferrer">
-  <img src={book6} style={{paddingLeft: '35px'}} alt="Image 2" />
+  <img src={sampleImage} style={{paddingLeft: '35px'}} alt="Image 2" />
 </a>
             <ul>
             <li>
@@ -326,13 +318,6 @@ const Paul_Stoller = () => {
         </li>
       
       </ul>
-
-      <h3>These are just some of Dr. Paul Stoller's accomplishments, to check out more: <Link to = 'https://www.wcupa.edu/sciences-mathematics/anthropologySociology/documents/pStoller.pdf' target= '_blank'>
-            <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
-            Click Here!
-          </Button>
-            
-            </Link></h3>
     </div>
   );
 };

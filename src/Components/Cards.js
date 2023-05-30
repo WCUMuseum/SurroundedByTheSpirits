@@ -1,0 +1,477 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Card } from 'react-bootstrap';
+
+
+
+const Cards = () => {
+  return (
+    <div>
+    
+    <div className="row" style={{ paddingLeft: '5px' , paddingRight: '5px'}}>
+
+    <div className="col-md-4">
+    <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+    <div className="ratio ratio-16x9">
+    <iframe
+    src="https://www.youtube.com/embed/xpj0yYsBCSg" 
+          title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      style={{ width: '100%', height: '100%' }}
+    ></iframe>
+  </div>
+  <div className="card-body">
+    <h5 className="card-title">Airport Security and Consumption of Medicine</h5>
+    <p className="card-text">
+    Based on a question from the medicine curators, Professor Stoller explains his study of herbs used in Songhay practices and how they are used in rituals.    </p>
+
+    <p> Click to go to chapter videos: 
+    <Link to='https://youtu.be/xpj0yYsBCSg' target='_blank' style={{paddingLeft: '10px'}}>
+    <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+      Click Here!
+    </Button>
+  </Link>
+  
+  </p>
+  </div>
+  </div>
+  </div>
+
+  <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+          src="https://www.youtube.com/embed/xvqkzlVJt-M"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Lymphoma Treatment with Songhay Practices</h5>
+          <p className="card-text">
+          In this clip, Stoller describes the Songhay wisdom he incorporated into his cancer treatment.           </p>
+
+          <p> Click to go to chapter videos: 
+          <Link to='https://youtu.be/xvqkzlVJt-M' target='_blank' style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+          src="https://www.youtube.com/embed/_vjCD1jpJL0" 
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Not Returning to Niger following Cancer Diagnosis</h5>
+          <p className="card-text">
+            DESCRIPTION HERE
+          </p>
+
+          <p> Click to go to chapter videos: 
+          <Link to='https://youtu.be/_vjCD1jpJL0' target='_blank' style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+          src="https://www.youtube.com/embed/fYdH25TtGmw" 
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Paul Stoller's Writing Process</h5>
+          <p className="card-text">
+          Even now, Stoller is an avid writer. In this clip, he talks about his writing process and how important ritual is to writing.          </p>
+
+          <p> Click to go to chapter videos: 
+          <Link to='https://youtu.be/fYdH25TtGmw' target='_blank' style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+          src="https://www.youtube.com/embed/uY6rv2-SJME"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Paul Stoller as a Developing Writer</h5>
+          <p className="card-text">
+          Before he planned on being an anthropologist, Paul was a writer. This clip is Paul talking about being a writer and the practices behind it.          </p>
+
+          <p> Click to go to chapter videos: 
+          <Link to='https://youtu.be/uY6rv2-SJME' target='_blank' style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/bMB0KQoJK6s"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Writing in Niger and Giving Good Speeches</h5>
+          <p className="card-text">
+          In this clip, Stoller explains what writing in Niger was like but also how to speak to an audience about research.          </p>
+
+          <p> Click to go to chapter videos: 
+          <Link to='https://youtu.be/bMB0KQoJK6s' target='_blank' style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/acf7KKNd_OM"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">History of the Pre-Songhay Urns</h5>
+          <p className="card-text">
+          A more controversial element of the exhibit is the Pre-Songhay urns from Stoller's personal collection. In this clip, Stoller explains the origins and plan he has for these objects.          </p>
+
+          <p> Click to go to chapter videos: 
+          <Link to='https://youtu.be/acf7KKNd_OM' target='_blank' style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/S1hBjKaFYS0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Intro to Anthropology Education and Peace Corps</h5>
+          <p className="card-text">
+          In this clip, we learn about Stoller's background and introduction to the Songhay people of Niger.
+                    </p>
+
+          <p> Click to go to chapter videos: 
+          <Link to='https://youtu.be/S1hBjKaFYS0' target='_blank' style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        
+        </p>
+        </div>
+        </div>
+        </div>
+
+        
+
+        
+
+        
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/kgCGOEoJy-o" 
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Anthropologists' Materials</h5>
+          <p className="card-text">
+          In conjunction with the desk display, in this clip, Stoller discusses what he would rely on in Niger to live and study.
+          </p>
+          <p> Click to go to chapter videos: 
+
+          <Link to='https://youtu.be/kgCGOEoJy-o' style={{paddingLeft: '10px'}}>
+                  <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+                    Click Here!
+                  </Button>
+                </Link>
+                </p>
+        </div>
+        </div>
+        </div>
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/jFebWvMaVTo"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Medications Brought to Niger</h5>
+          <p className="card-text">
+          One of Stoller's greatest takeaways from his time with the Songhay was their outlook on health. But what cosmopolitan medications did he bring with him to West Africa?
+          </p>
+          <p> Click to go to chapter videos: 
+
+          <Link to="/Card3"  style={{paddingLeft: '10px'}}>
+                  <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+                    Click Here!
+                  </Button>
+                </Link>
+                </p>
+        </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+        <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+        <div className="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/J-BrhMPXB0o"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          style={{ width: '100%', height: '100%' }}
+        ></iframe>
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">Mentor Jean Rouch</h5>
+        <p className="card-text">
+        Within the scholarly realm, one of Paul's most influential mentors is the ethnocinematographer Jean Rouch. In this clip, he describes their meeting, and there is more on Jean Rouch in the Sorcery exhibit case.
+        </p>
+        <p> Click to go to chapter videos: 
+
+        <Link to="/Card4" style={{paddingLeft: '10px'}}>
+                <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+                  Click Here!
+                </Button>
+              </Link>
+              </p>
+      </div>
+        </div>
+      </div>
+
+      <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/F7bFFX_wRYk"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Explaining the Importance of Spirit Possession</h5>
+          <p className="card-text">
+          Building on Jean Rouch's work, Stoller contextualizes the uninformed viewer as to the purpose of spirit possession in Songhay culture.
+          </p>
+          <p> Click to go to chapter videos: 
+
+          <Link to="/Card5" style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        </p>
+        </div>
+          </div>
+        </div>
+        <hr style={{ borderTop: "1px solid black" }} />
+
+      </div>
+
+      <div className="row" style={{ paddingLeft: '5px' , paddingRight: '5px'}}>
+       
+
+        
+
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/adXTANj1fKc"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Ethnographic Moment in Niger</h5>
+          <p className="card-text">
+          The ethnographic moment is one where an anthropologist's work comes into focus, and the importance of their work is reinforced. Stoller explains one of his moments in this clip.
+          </p>
+          <p> Click to go to chapter videos: 
+
+          <Link to="/Card6" style={{paddingLeft: '10px'}}>
+                  <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+                    Click Here!
+                  </Button>
+                </Link>
+                </p>
+        </div>
+        </div>
+      </div>
+
+       <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/iZ77YNl47Lg" 
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">Lymphoma and Facing Mortality</h5>
+          <p className="card-text">
+          Discussing another ethnographic moment, Stoller talks about cancer, his mortality, and how it shaped his scholarship.
+          </p>
+          <p> Click to go to chapter videos: 
+
+          <Link to="/Card7" style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        </p>
+        </div>
+          </div>
+        </div>
+        
+        <div className="col-md-4">
+          <div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+          <div className="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/rImtc865lgc" 
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{ width: '100%', height: '100%' }}
+          ></iframe>
+        </div>
+        <div className="card-body">
+          <h5 className="card-title">The King of Sweden</h5>
+          <p className="card-text">
+            As a byproduct of Paul's extensive research, writing, and teaching career, he has been recognized with many awards. One of which was the Anders Reitzus award, which came with an adventure to Sweden.
+          </p>
+          <p> Click to go to chapter videos: 
+
+          <Link to="/Card8" style={{paddingLeft: '10px'}}>
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+            Click Here!
+          </Button>
+        </Link>
+        </p>
+        </div>
+          </div>
+        </div>
+
+        <hr style={{ borderTop: "1px solid black" }} />
+    </div>
+    <div className="allvid-btn">
+        <Link to = "/all_vidoes">
+          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' , fontSize: '30px', padding: '20px 70px'}} type="button" className="btn btn-primary">
+            All Videos
+          </Button>
+        </Link>  
+    </div>   
+    
+    </div>
+  );
+};
+
+export default Cards;
