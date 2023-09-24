@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/SurroundedByTheSpirits/static/css/main.7935d14d.css",
-    "main.js": "/SurroundedByTheSpirits/static/js/main.383911a3.js",
+    "main.css": "/SurroundedByTheSpirits/static/css/main.6eced237.css",
+    "main.js": "/SurroundedByTheSpirits/static/js/main.22678d7a.js",
     "static/js/787.28cb0dcd.chunk.js": "/SurroundedByTheSpirits/static/js/787.28cb0dcd.chunk.js",
+    "static/media/pictures.png": "/SurroundedByTheSpirits/static/media/pictures.3605113c48ba8f7b4384.png",
+    "static/media/book7.png": "/SurroundedByTheSpirits/static/media/book7.e0f9b204f07af4773ca7.png",
     "static/media/moon.jpg": "/SurroundedByTheSpirits/static/media/moon.bef0d5d1ddc0376d917a.jpg",
     "static/media/book2.jpg": "/SurroundedByTheSpirits/static/media/book2.4a48f989e2078d742cc3.jpg",
     "static/media/book1.jpg": "/SurroundedByTheSpirits/static/media/book1.9e90c5995dc585821e09.jpg",
@@ -12,12 +14,12 @@
     "static/media/book3.jpg": "/SurroundedByTheSpirits/static/media/book3.0fbfc9e5668926b6bf6b.jpg",
     "static/media/book5.jpg": "/SurroundedByTheSpirits/static/media/book5.39dc875c28507c7f9e3d.jpg",
     "index.html": "/SurroundedByTheSpirits/index.html",
-    "main.7935d14d.css.map": "/SurroundedByTheSpirits/static/css/main.7935d14d.css.map",
-    "main.383911a3.js.map": "/SurroundedByTheSpirits/static/js/main.383911a3.js.map",
+    "main.6eced237.css.map": "/SurroundedByTheSpirits/static/css/main.6eced237.css.map",
+    "main.22678d7a.js.map": "/SurroundedByTheSpirits/static/js/main.22678d7a.js.map",
     "787.28cb0dcd.chunk.js.map": "/SurroundedByTheSpirits/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7935d14d.css",
-    "static/js/main.383911a3.js"
+    "static/css/main.6eced237.css",
+    "static/js/main.22678d7a.js"
   ]
 }
