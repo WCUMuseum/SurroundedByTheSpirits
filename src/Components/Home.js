@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import paulStollerImage from '../assest/Paul_stoller.jpg';
+import paulStollerImage from '../assest/pictures.png';
 import Cards  from './Cards';
 function Home() {
   return (
@@ -31,8 +31,7 @@ function Home() {
     <p>
     Stoller's research has focused primarily on the Songhay people of Niger, West Africa. Although
     he originally studied linguistic anthropology, he was captivated by their spirit possession troupes
-    and was taken under the wing of the possession priest Adamu Jenitongo and visual
-    anthropologist Jean Rouch. He is particularly well-known for his book <span> <a href='https://www.amazon.com/Sorcerys-Shadow-Memoir-Apprenticeship-Songhay/dp/0226775437' target="_blank">In Sorcery's Shadow: A
+    and was taken under the wing of the possession priest Adamu Jenitongo and the ethno-cinematographer Jean Rouch. He is particularly well-known for his book <span> <a href='https://www.amazon.com/Sorcerys-Shadow-Memoir-Apprenticeship-Songhay/dp/0226775437' target="_blank">In Sorcery's Shadow: A
     Memoir of Apprenticeship among the Songhay of Niger</a> </span>, which describes his experiences living
     among the Songhay as an apprentice to a sorcerer, as well as <span> <a href='https://www.amazon.com/Fusion-Worlds-Ethnography-Possession-Songhay/dp/0226775453' target="_blank"> Fusion of the Worlds: An
     Ethnography of Possession Among the Songhay of Niger </a></span>. 
@@ -53,7 +52,7 @@ function Home() {
     novel”—readable, yet instructive academic work. He has been a regular contributor to the
     <span> <a href='https://www.huffpost.com/author/paul-stoller' target="_blank"> Huffington Post</a></span> and <span> <a target="_blank" href='https://www.psychologytoday.com/us/contributors/paul-stoller-phd'> Psychology Today</a></span>, bringing anthropological insight to a non-academic
     audience through the publication of over 100 articles. For this, the American Anthropological
-    Association awarded him the <span><a href='https://www.americananthro.org/ConnectWithAAA/Content.aspx?ItemNumber=2128&navItemNumber=771' target="_blank">Robert B. Textor and Family Prize for Anticipatory Anthropology </a> </span> in 1994, honoring those whose significant contributions affect policy decisions, and the
+    Association awarded him the <span><a href='https://americananthro.org/prizes-and-awards/robert-textor-and-family-prize/' target="_blank">Robert B. Textor and Family Prize for Anticipatory Anthropology </a> </span> in 1994, honoring those whose significant contributions affect policy decisions, and the
     <span><a href='https://americananthro.org/prizes-and-awards/aime/' target="_blank">Anthropology in the Media Award</a></span> in 2015. Attuned to the role of the senses in ethnography, he
     also has been a major influence in humanistic and sensory anthropology; <span><a href='https://www.amazon.com/Taste-Ethnographic-Things-Anthropology-Contemporary/dp/0812212924' target="_blank"> The Taste of
     Ethnographic Things: The Senses in Anthropology</a></span> is his best-known work in this field. In

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import paulStollerImage from '../assest/Paul_stoller.jpg'; 
+import paulStollerImage from '../assest/pictures.png'; 
 import sampleImage from '../assest/moon.jpg'
 import GoBack from '../Components/GoBack';
 import { Link } from 'react-router-dom';
@@ -10,6 +10,8 @@ import book3 from '../assest/book3.jpg'
 import book4 from '../assest/book4.jpg'
 import book5 from '../assest/book5.jpg'
 import book6 from '../assest/book6.jpg'
+import book7 from '../assest/book7.png'
+
 
 
 
@@ -34,7 +36,7 @@ const Paul_Stoller = () => {
 
       <h2 > About Paul Stoller: </h2>
       <p>
-      <a href="https://paulstollersblog.wordpress.com/">Paul Stoller</a> is the Professor of Anthropology at West Chester University of Pennsylvania, and is
+      <a href="https://paulstollersblog.wordpress.com/" target="_blank">Paul Stoller</a> is the Professor of Anthropology at West Chester University of Pennsylvania, and is
       known for his contributions to the field of anthropology of West Africa. His many acclaimed
       books examine Songhay culture, religion, rituals, and wellness. In recognition of his upcoming
       retirement and the extensive impact of his life's work, this oral history serves to chronicle his
@@ -55,38 +57,39 @@ const Paul_Stoller = () => {
     <p>
     Stoller's research has focused primarily on the Songhay people of Niger, West Africa. Although
     he originally studied linguistic anthropology, he was captivated by their spirit possession troupes
-    and was taken under the wing of the possession priest Adamu Jenitongo and visual
-    anthropologist Jean Rouch. He is particularly well-known for his book <span>In Sorcery's Shadow: A
-    Memoir of Apprenticeship among the Songhay of Niger</span>, which describes his experiences living
-    among the Songhay as an apprentice to a sorcerer, as well as <span> Fusion of the Worlds: An
-    Ethnography of Possession Among the Songhay of Niger </span>. 
+    and was taken under the wing of the possession priest Adamu Jenitongo and the ethno-cinematographer Jean Rouch. He is particularly well-known for his book <span> <a href='https://www.amazon.com/Sorcerys-Shadow-Memoir-Apprenticeship-Songhay/dp/0226775437' target="_blank">In Sorcery's Shadow: A
+    Memoir of Apprenticeship among the Songhay of Niger</a> </span>, which describes his experiences living
+    among the Songhay as an apprentice to a sorcerer, as well as <span> <a href='https://www.amazon.com/Fusion-Worlds-Ethnography-Possession-Songhay/dp/0226775453' target="_blank"> Fusion of the Worlds: An
+    Ethnography of Possession Among the Songhay of Niger </a></span>. 
     </p>
     <p>
     Stoller’s life and fieldwork shifted dramatically after a series of illnesses, first in Niger, where he
     was told bad magic was being cast on him, and again after a cancer diagnosis in the early 2000s.
-    <span> A Stranger Among the Village of the Sick</span> is a memoir about his experience of fusing Western
+    <span> <a href='https://www.amazon.com/Stranger-Village-Sick-Sorcery-Healing/dp/0807072613' target="_blank">  A Stranger Among the Village of the Sick</a></span> is a memoir about his experience of fusing Western
     cosmopolitan medicine with Songhay spirituality.
     </p>
     <p>
     Feeling he could not return to Niger, he shifted his field site to the Malcolm Shabazz Market in
-    Harlem, NY, studying the West African diaspora. <span>Money Has No Smell</span> is one of several books
+    Harlem, NY, studying the West African diaspora. <span> <a href='https://www.amazon.com/Money-Has-No-Smell-Africanization/dp/0226775305' target="_blank"> Money Has No Smell</a></span> is one of several books
     emerging from this work.    
     </p>
     <p>
     Stoller is particularly renowned for his unique writing style, having pioneered the “ethnographic
     novel”—readable, yet instructive academic work. He has been a regular contributor to the
-    <span> <a href='https://www.huffpost.com/author/paul-stoller'> Huffington Post</a></span> and <span> <a href='https://www.psychologytoday.com/us/contributors/paul-stoller-phd'> Psychology Today</a></span>, bringing anthropological insight to a non-academic
+    <span> <a href='https://www.huffpost.com/author/paul-stoller' target="_blank"> Huffington Post</a></span> and <span> <a target="_blank" href='https://www.psychologytoday.com/us/contributors/paul-stoller-phd'> Psychology Today</a></span>, bringing anthropological insight to a non-academic
     audience through the publication of over 100 articles. For this, the American Anthropological
-    Association awarded him the <span><a href='https://www.americananthro.org/ConnectWithAAA/Content.aspx?ItemNumber=2128&navItemNumber=771'>Robert B. Textor and Family Prize for Anticipatory Anthropology </a> </span> in 1994, honoring those whose significant contributions affect policy decisions, and the
-    <span><a href='https://americananthro.org/prizes-and-awards/aime/'>Anthropology in the Media Award</a></span> in 2015. Attuned to the role of the senses in ethnography, he
-    also has been a major influence in humanistic and sensory anthropology; <span>The Taste of
-    Ethnographic Things: The Senses in Anthropology</span> is his best-known work in this field. In
-    addition to fellowships from the National Endowment for the Humanities and the John Simon
-    Guggenheim Memorial Foundation, he was awarded prestigious Anders Retzius Gold Medal in
-    Anthropology—the discipline’s “Nobel Prize” given by the King of Sweden every four years. He
+    Association awarded him the <span><a href='https://americananthro.org/prizes-and-awards/robert-textor-and-family-prize/' target="_blank">Robert B. Textor and Family Prize for Anticipatory Anthropology </a> </span> in 1994, honoring those whose significant contributions affect policy decisions, and the
+    <span><a href='https://americananthro.org/prizes-and-awards/aime/' target="_blank">Anthropology in the Media Award</a></span> in 2015. Attuned to the role of the senses in ethnography, he
+    also has been a major influence in humanistic and sensory anthropology; <span><a href='https://www.amazon.com/Taste-Ethnographic-Things-Anthropology-Contemporary/dp/0812212924' target="_blank"> The Taste of
+    Ethnographic Things: The Senses in Anthropology</a></span> is his best-known work in this field. In
+    addition to fellowships from the <span><a href='https://www.neh.gov/' target="_blank"> National Endowment for the Humanities</a></span> and the <span><a href='https://www.gf.org/' target="_blank"> John Simon
+    Guggenheim Memorial Foundation</a></span>, he was awarded prestigious <span><a href='https://en.wikipedia.org/wiki/Swedish_Society_for_Anthropology_and_Geography' target="_blank">Anders Retzius Gold Medal in
+    Anthropology</a></span>—the discipline’s “Nobel Prize” given by the King of Sweden every four years. He
     now travels around the world giving writing workshops and transmitting the knowledge of the
     Songhay ancestors to a new generation of students.    
     </p>
+
+
 
     <p style={{paddingBottom:"0"}}>
       To read Paul Stoller's blog: <a href="https://paulstollersblog.wordpress.com/"> <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
@@ -94,23 +97,38 @@ const Paul_Stoller = () => {
     </Button></a>
     </p>
     
-      <p>
-        To see more of Paul Stoller's books and accomplishments:   
-        <Link style={{paddingLeft: '10px'}} to="/paul_stoller">
-          <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
-            Click Here!
-          </Button>
-        </Link>
-      </p>
+     
       <hr style={{ borderTop: "1px solid black" }} />
 
       <h2> Accomplishments (Click the List below!): </h2>
+
+      
       <ul>
-        <li onClick={() => toggleItem(0)} style={{ cursor: 'pointer' }}>
+      
+      <li onClick={() => toggleItem(0)} style={{ cursor: 'pointer' }}>
+        <div>
+          2013 - Anders Retzius Gold Medal in Anthropology (for his significant and innovative contributions to anthropology)
+        </div>
+        {expandedItem === 0 && (
+        <div  className="expanded-item-box">
+        <ul>
+          <li style={{listStyle: 'none'}}>
+          Paul Stoller received the 2013 Anders Retzius Gold Medal in Anthropology for his significant contributions to anthropology. This prestigious award is presented by the Swedish Society of Anthropology and Geography (SSAG) every third year and is patronized by the Swedish King. The award recognizes outstanding achievements and contributions to the field of anthropology.          </li>
+          <li style={{listStyle: 'none'}}>
+          Recipients of the Wenner-Gren Foundation for Anthropological Research Grant are typically scholars and researchers in the field of anthropology who have proposed innovative research projects. The grant aims to enable them to carry out their research, including fieldwork, data collection, analysis, and dissemination of findings.
+         </li>
+         <li style={{listStyle: 'none'}}>      
+         The grant is highly regarded within the field of anthropology as it supports and facilitates important contributions to anthropological knowledge and understanding. It provides researchers with the resources necessary to conduct their research, explore new perspectives, and make significant contributions to the field.
+         </li>          
+         </ul>
+        </div>
+      )}
+    </li>
+        <li onClick={() => toggleItem(1)} style={{ cursor: 'pointer' }}>
           <div>
             2007 - Wenner-Gren Foundation for Anthropological Research Grant (for ethnographic fieldwork among West African immigrants in New York City.)
           </div>
-          {expandedItem === 0 && (
+          {expandedItem === 1 && (
           <div  className="expanded-item-box">
           <ul>
             <li style={{listStyle: 'none'}}>
@@ -127,12 +145,12 @@ const Paul_Stoller = () => {
         )}
       </li>
       
-      <li onClick={() => toggleItem(1)} style={{ cursor: 'pointer' }}>
+      <li onClick={() => toggleItem(2)} style={{ cursor: 'pointer' }}>
         <div>
           2002 - Robert B. Textor and Family Prize for Excellence in Anticipatory Anthropology:
           American Anthropological Association.
         </div >
-        {expandedItem === 1 && (
+        {expandedItem === 2 && (
           <div className="expanded-item-box">
           <ul>
             <li style={{listStyle: 'none'}}>
@@ -141,7 +159,7 @@ const Paul_Stoller = () => {
             Anticipatory anthropology focuses on understanding and addressing future challenges and opportunities through anthropological perspectives and methodologies. The award acknowledges individuals or groups who have demonstrated excellence in this area, such as through innovative research, theoretical advancements, or practical applications that contribute to our understanding of the future and its implications for human societies and cultures.
             </li>
            <li style={{listStyle: 'none'}}>     
-            <Link to = 'https://www.americananthro.org/StayInformed/NewsDetail.aspx?ItemNumber=13122' target= '_blank'>
+            <Link to = 'https://americananthro.org/prizes-and-awards/robert-textor-and-family-prize/' target= '_blank'>
             <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
             Click Here!
           </Button>
@@ -155,10 +173,10 @@ const Paul_Stoller = () => {
         )}
       </li>
     
-        <li onClick={() => toggleItem(2)} style={{ cursor: 'pointer' }}>
+        <li onClick={() => toggleItem(3)} style={{ cursor: 'pointer' }}>
         1999 - Awarded NSF Grant “ Mobile Merchants/Dispersed Communities: The Dynamics of the
         West African Art Trade in North America 
-          {expandedItem === 2 && (
+          {expandedItem === 3 && (
             <div className="expanded-item-box">
             <ul>
             <li style={{listStyle: 'none'}}>
@@ -258,11 +276,35 @@ const Paul_Stoller = () => {
 
       <hr style={{ borderTop: "1px solid black" }} />
 
-      <h2> Books (Click the lists and pictures below!) :  </h2>
+      <h2> Paul Stoller has published 16 books here are just a few: (Click the lists and pictures below!) :  </h2>
       <ul>
-        <li onClick={() => toggleItem(9)} style={{ cursor: 'pointer' }}>
+
+      <li onClick={() => toggleItem(9)} style={{ cursor: 'pointer' }}>
+      "Wisdom from the Edge: Writing Ethnography in Turbulent Times":
+      {expandedItem === 9 && (
+        <div className="expanded-item-box">
+        <a href="https://read.amazon.com/kp/embed?asin=B0BJ4Q2M6Z&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_F6NQQGTVKKBKVH5JB8RG" target="_blank" rel="noopener noreferrer">
+<img src={book7} style={{paddingLeft: '35px'}} alt="Image 2" />
+</a>
+
+      <ul>
+      <li>
+      In "Wisdom From the Edge," Paul Stoller discusses how anthropologists can contribute to shaping a socially and culturally positive future. He emphasizes the use of vivid ethnographic narratives to effectively convey insights to diverse audiences, highlighting the significance of respecting nature for humanity's future. Stoller employs techniques from film, poetry, and fiction to make anthropological knowledge more engaging and relatable to the public, emphasizing the value of incorporating indigenous wisdom to address pressing social issues.
+
+
+
+
+
+
+      </li>
+      </ul>
+      </div>
+      )}
+
+    </li>
+        <li onClick={() => toggleItem(10)} style={{ cursor: 'pointer' }}>
           "In Sorcery's Shadow: A Memoir of Apprenticeship Among the Songhay of Niger":
-          {expandedItem === 9 && (
+          {expandedItem === 10 && (
             <div className="expanded-item-box">
             <a href="https://www.amazon.com/Sorcerys-Shadow-Memoir-Apprenticeship-Songhay/dp/0226775437" target="_blank" rel="noopener noreferrer">
   <img src={book1} style={{paddingLeft: '35px'}} alt="Image 2" />
@@ -277,9 +319,9 @@ const Paul_Stoller = () => {
           )}
 
         </li>
-        <li onClick={() => toggleItem(10)} style={{ cursor: 'pointer' }}>
+        <li onClick={() => toggleItem(11)} style={{ cursor: 'pointer' }}>
         "The Taste of Ethnographic Things: The Senses in Anthropology":
-          {expandedItem === 10 && 
+          {expandedItem === 11 && 
             (
               <div>
 <a href="https://www.amazon.com/Taste-Ethnographic-Things-Anthropology-Contemporary/dp/0812212924" target="_blank" rel="noopener noreferrer">
@@ -296,9 +338,9 @@ const Paul_Stoller = () => {
             
            
         </li>
-        <li onClick={() => toggleItem(11)} style={{ cursor: 'pointer' }}>
+        <li onClick={() => toggleItem(12)} style={{ cursor: 'pointer' }}>
         "Fusion of the Worlds: An Ethnography of Possession Among the Songhay of Niger":
-          {expandedItem === 11 &&
+          {expandedItem === 12 &&
             (
               <div>
 <a href="https://www.amazon.com/Fusion-Worlds-Ethnography-Possession-Songhay/dp/0226775453" target="_blank" rel="noopener noreferrer">
@@ -313,9 +355,9 @@ const Paul_Stoller = () => {
             )}
             
         </li>
-        <li onClick={() => toggleItem(12)} style={{ cursor: 'pointer' }}>
+        <li onClick={() => toggleItem(13)} style={{ cursor: 'pointer' }}>
         "Money Has No Smell: The Africanization of New York City":
-          {expandedItem === 12 && 
+          {expandedItem === 13 && 
             (
               <div>
 <a href="https://www.amazon.com/Money-Has-No-Smell-Africanization/dp/0226775305" target="_blank" rel="noopener noreferrer">
@@ -332,9 +374,9 @@ const Paul_Stoller = () => {
             
             
         </li>
-        <li onClick={() => toggleItem(13)} style={{ cursor: 'pointer' }}>
+        <li onClick={() => toggleItem(14)} style={{ cursor: 'pointer' }}>
         "Ethnography and Virtual Worlds: A Handbook of Method":
-          {expandedItem === 13 && 
+          {expandedItem === 14 && 
             
             (
               <div>
@@ -350,9 +392,9 @@ const Paul_Stoller = () => {
             )}
              
         </li>
-        <li onClick={() => toggleItem(14)} style={{ cursor: 'pointer' }}>
+        <li onClick={() => toggleItem(15)} style={{ cursor: 'pointer' }}>
         "The Power of the Between: An Anthropological Odyssey":
-          {expandedItem === 14 &&
+          {expandedItem === 15 &&
             
                  
             (
