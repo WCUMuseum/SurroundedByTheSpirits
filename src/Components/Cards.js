@@ -30,7 +30,7 @@ const Cards = () => {
             </p>
 
   <p> Click to go to chapter videos: 
-  <Link to='https://www.youtube.com/embed/S1hBjKaFYS0' target='_blank' style={{paddingLeft: '10px'}}>
+  <Link to='https://youtu.be/S1hBjKaFYS0?si=XUKLw1SulbyCYtEM' target='_blank' style={{paddingLeft: '10px'}}>
   <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
     Click Here!
   </Button>
