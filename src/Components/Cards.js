@@ -30,7 +30,7 @@ const Cards = () => {
             </p>
 
   <p> Click to go to chapter videos: 
-  <Link to='https://youtu.be/S1hBjKaFYS0' target='_blank' style={{paddingLeft: '10px'}}>
+  <Link to='https://www.youtube.com/embed/S1hBjKaFYS0' target='_blank' style={{paddingLeft: '10px'}}>
   <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
     Click Here!
   </Button>
@@ -65,7 +65,7 @@ One of Stoller's greatest takeaways from his time with the Songhay was their out
 </p>
 <p> Click to go to chapter videos: 
 
-<Link to="/Card3"  style={{paddingLeft: '10px'}}>
+<Link to="https://www.youtube.com/embed/jFebWvMaVTo" target="_blank"  style={{paddingLeft: '10px'}}>
         <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
           Click Here!
         </Button>
@@ -95,11 +95,11 @@ One of Stoller's greatest takeaways from his time with the Songhay was their out
 <div className="card-body">
 <h5 className="card-title">Anthropologists' Materials</h5>
 <p className="card-text">
-In conjunction with the desk display, in this clip, Stoller discusses what he would rely on in Niger to live and study.
+Paul discusses the materials he used while conducting fieldwork in Niger in this clip.
 </p>
 <p> Click to go to chapter videos: 
 
-<Link to='https://youtu.be/kgCGOEoJy-o' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/QlI3yR3Pqo8?si=fhnAnn7YqsG2kR-t' target="_blank" style={{paddingLeft: '10px'}}>
         <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
           Click Here!
         </Button>
@@ -127,7 +127,8 @@ In conjunction with the desk display, in this clip, Stoller discusses what he wo
 <div className="card-body">
 <h5 className="card-title">Writing Fieldnotes in Niger</h5>
 <p className="card-text">
-In this clip, Stoller explains what writing in Niger was like but also how to speak to an audience about research.          </p>
+A hallmark of ethnographic research is writing proper fieldnotes. Paul discusses his daily practice of writing while in Niger, and comments on ethnographic methods.
+  </p>
 
 <p> Click to go to chapter videos: 
 <Link to='https://www.youtube.com/embed/Yu7ehlFPQuI?si=c3PrBj5Z2ZxyeaJI' target='_blank' style={{paddingLeft: '10px'}}>
@@ -163,7 +164,7 @@ In this clip, Stoller explains what writing in Niger was like but also how to sp
         </p>
         <p> Click to go to chapter videos: 
 
-        <Link to="/Card4" style={{paddingLeft: '10px'}}>
+        <Link to="https://www.youtube.com/embed/J-BrhMPXB0o" target="_blank" style={{paddingLeft: '10px'}}>
                 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
                   Click Here!
                 </Button>
@@ -191,11 +192,11 @@ In this clip, Stoller explains what writing in Niger was like but also how to sp
 <div className="card-body">
 <h5 className="card-title">Explaining the Importance of Spirit Possession</h5>
 <p className="card-text">
-Building on Jean Rouch's work, Stoller contextualizes the uninformed viewer as to the purpose of spirit possession in Songhay culture.
+Discussing the reception of Jean Rouch’s film, Le Maitre Fous (The Mad Masters) which was sometimes criticized as a parody, Stoller contextualizes the purpose of spirit possession in Songhay culture.
 </p>
 <p> Click to go to chapter videos: 
 
-<Link to="/Card5" style={{paddingLeft: '10px'}}>
+<Link to="https://www.youtube.com/embed/F7bFFX_wRYk" target="_blank" style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
@@ -229,7 +230,7 @@ The ethnographic moment is one where an anthropologist's work comes into focus, 
 </p>
 <p> Click to go to chapter videos: 
 
-<Link to="/Card6" style={{paddingLeft: '10px'}}>
+<Link to="https://www.youtube.com/embed/adXTANj1fKc" target="_blank" style={{paddingLeft: '10px'}}>
         <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
           Click Here!
         </Button>
@@ -257,10 +258,10 @@ src="https://www.youtube.com/embed/xpj0yYsBCSg"
 <div className="card-body">
 <h5 className="card-title">Airport Security and Consumption of Medicine</h5>
 <p className="card-text">
-Based on a question from the medicine curators, Professor Stoller explains his study of herbs used in Songhay practices and how they are used in rituals.    </p>
+Stoller explains his study of herbs used in Songhay practices, explains how they are used, and recounts his interactions with airport security trying to take them back to the US.   </p>
 
 <p> Click to go to chapter videos: 
-<Link to='https://youtu.be/xpj0yYsBCSg' target='_blank' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/xpj0yYsBCSg' target='_blank' style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
@@ -292,7 +293,7 @@ src="https://www.youtube.com/embed/xvqkzlVJt-M"
 In this clip, Stoller describes the Songhay wisdom he incorporated into his cancer treatment.           </p>
 
 <p> Click to go to chapter videos: 
-<Link to='https://youtu.be/xvqkzlVJt-M' target='_blank' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/xvqkzlVJt-M' target='_blank' style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
@@ -325,7 +326,7 @@ src="https://www.youtube.com/embed/_vjCD1jpJL0"
 </p>
 
 <p> Click to go to chapter videos: 
-<Link to='https://youtu.be/_vjCD1jpJL0' target='_blank' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/_vjCD1jpJL0' target='_blank' style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
@@ -357,7 +358,7 @@ src="https://www.youtube.com/embed/xvqkzlVJt-M"
 In this clip, Stoller describes the Songhay wisdom he incorporated into his cancer treatment.           </p>
 
 <p> Click to go to chapter videos: 
-<Link to='https://youtu.be/xvqkzlVJt-M' target='_blank' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/xvqkzlVJt-M' target='_blank' style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
@@ -390,7 +391,7 @@ In this clip, Stoller describes the Songhay wisdom he incorporated into his canc
 A more controversial element of the exhibit is the Pre-Songhay urns from Stoller's personal collection. In this clip, Stoller explains the origins and plan he has for these objects.          </p>
 
 <p> Click to go to chapter videos: 
-<Link to='https://youtu.be/acf7KKNd_OM' target='_blank' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/acf7KKNd_OM' target='_blank' style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
@@ -432,10 +433,11 @@ src="https://www.youtube.com/embed/uY6rv2-SJME"
 <div className="card-body">
 <h5 className="card-title">Paul Stoller on Writing</h5>
 <p className="card-text">
-Before he planned on being an anthropologist, Paul was a writer. This clip is Paul talking about being a writer and the practices behind it.          </p>
+A pioneer of the “ethnographic novel,” Paul is renowned for his clear and evocative writing. In this clip, he explains the benefits and beauty of writing, what makes a good writer, and collaboration within the industry.
+        </p>
 
 <p> Click to go to chapter videos: 
-<Link to='https://youtu.be/uY6rv2-SJME' target='_blank' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/uY6rv2-SJME' target='_blank' style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
@@ -464,11 +466,12 @@ Before he planned on being an anthropologist, Paul was a writer. This clip is Pa
 <div className="card-body">
 <h5 className="card-title">Themes in Paul Stoller’s Writing</h5>
 <p className="card-text">
-In conjunction with the desk display, in this clip, Stoller discusses what he would rely on in Niger to live and study.
+Every anthropologist sees the world through their own personal lens. Paul discusses the role religion and culture has played in shaping three main themes in his work.
+
 </p>
 <p> Click to go to chapter videos: 
 
-<Link to='https://www.youtube.com/embed/AIuIJfbc5Dw?si=0M0WHa0b63LhkEg9' style={{paddingLeft: '10px'}}>
+<Link to='https://www.youtube.com/embed/AIuIJfbc5Dw?si=0M0WHa0b63LhkEg9' target="_blank" style={{paddingLeft: '10px'}}>
         <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
           Click Here!
         </Button>
@@ -496,10 +499,10 @@ In conjunction with the desk display, in this clip, Stoller discusses what he wo
 <div className="card-body">
   <h5 className="card-title">Paul Stoller's Writing Process</h5>
   <p className="card-text">
-  Even now, Stoller is an avid writer. In this clip, he talks about his writing process and how important ritual is to writing.          </p>
+  Paul discusses his writing process and how important ritual is to writing.          </p>
 
   <p> Click to go to chapter videos: 
-  <Link to='https://youtu.be/fYdH25TtGmw' target='_blank' style={{paddingLeft: '10px'}}>
+  <Link to='https://www.youtube.com/embed/fYdH25TtGmw' target='_blank' style={{paddingLeft: '10px'}}>
   <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
     Click Here!
   </Button>
@@ -528,7 +531,8 @@ In conjunction with the desk display, in this clip, Stoller discusses what he wo
 <div className="card-body">
 <h5 className="card-title">Giving Speeches</h5>
 <p className="card-text">
-In this clip, Stoller explains what writing in Niger was like but also how to speak to an audience about research.          </p>
+Along with writing, speaking is an important component to effective communication. Stoller reflects on how he discusses his research with his audience.
+         </p>
 
 <p> Click to go to chapter videos: 
 <Link to='https://www.youtube.com/embed/fSpAqsmj2kA?si=wFooSzOYErwKPpRC' target='_blank' style={{paddingLeft: '10px'}}>
@@ -561,11 +565,12 @@ In this clip, Stoller explains what writing in Niger was like but also how to sp
 <div className="card-body">
 <h5 className="card-title">The King of Sweden</h5>
 <p className="card-text">
-  As a byproduct of Paul's extensive research, writing, and teaching career, he has been recognized with many awards. One of which was the Anders Reitzus award, which came with an adventure to Sweden.
+In 2013, King Carl XVI Gustav of Sweden bestowed the Anders Retzius Gold Medal in Anthropology to Stoller. Paul recounts his adventure with nobility here.
+
 </p>
 <p> Click to go to chapter videos: 
 
-<Link to="/Card8" style={{paddingLeft: '10px'}}>
+<Link to="https://www.youtube.com/embed/rImtc865lgc" target="_blank" style={{paddingLeft: '10px'}}>
 <Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
   Click Here!
 </Button>
