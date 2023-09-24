@@ -23,7 +23,7 @@ function App() {
       <NavbarComponent />
        <Routes>
          <Route path="/SurroundedByTheSpirits" element={<Home/>} />
-         <Route path="/museum_page" element={<Main_Museum     />} />
+         <Route path="https://www.wcupa.edu/sciences-mathematics/anthropologySociology/museum/surrounded-by-the-spirits.aspx" element={<Main_Museum     />} />
          <Route path="/about" element={<About/>} />
          
          <Route path="/paul_stoller" element={<Paul_Stoller/>} />
