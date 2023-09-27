@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import paulStollerImage from '../assest/pictures.png';
+import paulStollerImage from '../assest/paul.jpg';
 import Cards  from './Cards';
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <img className="paul-img" src={paulStollerImage} alt="Paul Stoller" />
       <p style={{ display: 'flex', justifyContent: 'center', marginTop: "0", fontSize: "50px" }}>  Paul Stoller: A Custodian of Knowledge </p>
      <p>
-      <a href="https://paulstollersblog.wordpress.com/" target="_blank">Paul Stoller</a> is the Professor of Anthropology at West Chester University of Pennsylvania, and is
+      <a href="https://paulstollersblog.wordpress.com/" target="_blank">Paul Stoller</a> is Professor of Anthropology at West Chester University of Pennsylvania, and is
       known for his contributions to the field of anthropology of West Africa. His many acclaimed
       books examine Songhay culture, religion, rituals, and wellness. In recognition of his upcoming
       retirement and the extensive impact of his life's work, this oral history serves to chronicle his

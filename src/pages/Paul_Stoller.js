@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import paulStollerImage from '../assest/pictures.png'; 
+import paulStollerImage from '../assest/paul.jpg'; 
 import sampleImage from '../assest/moon.jpg'
 import GoBack from '../Components/GoBack';
 import { Link } from 'react-router-dom';
@@ -36,7 +36,7 @@ const Paul_Stoller = () => {
 
       <h2 > About Paul Stoller: </h2>
       <p>
-      <a href="https://paulstollersblog.wordpress.com/" target="_blank">Paul Stoller</a> is the Professor of Anthropology at West Chester University of Pennsylvania, and is
+      <a href="https://paulstollersblog.wordpress.com/" target="_blank">Paul Stoller</a> is Professor of Anthropology at West Chester University of Pennsylvania, and is
       known for his contributions to the field of anthropology of West Africa. His many acclaimed
       books examine Songhay culture, religion, rituals, and wellness. In recognition of his upcoming
       retirement and the extensive impact of his life's work, this oral history serves to chronicle his
