@@ -582,6 +582,41 @@ In 2013, King Carl XVI Gustav of Sweden bestowed the Anders Retzius Gold Medal i
        </div>
       </div>
 
+{ /*##########################################18############################################################################################################################*/ }
+
+              
+<div className="col-md-4">
+<div className="card mb-3" style={{ maxWidth: '100%', maxHeight: '600px' }}>
+<div className="ratio ratio-16x9">
+<iframe
+  src="https://www.youtube.com/embed/3xH4LwIH70w?si=0lDaRDYYlOBQWIwQ" 
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowFullScreen
+  style={{ width: '100%', height: '100%' }}
+></iframe>
+</div>
+<div className="card-body">
+<h5 className="card-title">Paul Stoller on his career at WCU
+</h5>
+<p className="card-text">
+Paul Stoller spent his entire career, spanning several decades, at West Chester University. On the eve of his retirement, he looks back on how WCU nurtured his idiosyncratic path in anthropology.
+</p>
+<p> Click to go to chapter videos: 
+
+<Link to="https://www.youtube.com/embed/3xH4LwIH70w?si=0lDaRDYYlOBQWIwQ" target="_blank" style={{paddingLeft: '10px'}}>
+<Button style={{ backgroundColor: 'rgb(221, 105, 29)' }} type="button" className="btn btn-primary">
+  Click Here!
+</Button>
+</Link>
+</p>
+</div>
+</div>
+</div>
+
+{ /*##########################################18############################################################################################################################*/ }
+
 
 
         <hr style={{ borderTop: "1px solid black" }} />

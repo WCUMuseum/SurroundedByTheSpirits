@@ -17,8 +17,29 @@ const NavbarComponent = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <CustomLink to="/SurroundedByTheSpirits">Home</CustomLink>
-                <CustomLink to="https://www.wcupa.edu/sciences-mathematics/anthropologySociology/museum/surrounded-by-the-spirits.aspx" target="_blank">Main Musuem</CustomLink>
-                <CustomLink to="/paul_stoller">Paul Stoller</CustomLink>
+{/* Main Museum Tab with Redirect Logo */}
+<li className="nav-item">
+<a
+  href="https://www.wcupa.edu/sciences-mathematics/anthropologySociology/museum/surrounded-by-the-spirits.aspx"
+  target="_blank"
+  className="nav-link"
+  style={{ position: 'relative', paddingRight: '30px' }} // Adjust the padding as needed
+>
+  Main Museum
+  <img
+    src="redirect-logo.png" // Replace with the URL or path to your redirect logo image
+    alt="Redirect"
+    style={{
+      position: 'absolute',
+      top: '50%',
+      right: '0',
+      transform: 'translateY(-50%)',
+      width: '20px', // Adjust the width of the logo as needed
+      height: '20px', // Adjust the height of the logo as needed
+    }}
+  />
+</a>
+</li>                <CustomLink to="/paul_stoller">Paul Stoller</CustomLink>
                 <CustomLink to="/all_vidoes">All Videos</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
               </Nav>
